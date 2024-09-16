@@ -2,7 +2,11 @@
 const { addDynamicIconSelectors } = require("@iconify/tailwind");
 
 module.exports = {
-  content: ["./{assets,views}/**/*.{html,js}", "./pkg/templatehelpers/*.go"],
+  content: [
+    "./internal/views/assets/**/*.{html,js}",
+    "./internal/views/**/*.{html,js}",
+    "./pkg/templatehelpers/*.go",
+  ],
   theme: {
     extend: {},
   },

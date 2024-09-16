@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/fsouza/slognil"
-	appassets "github.com/jovandeginste/workout-tracker/assets"
-	apptranslations "github.com/jovandeginste/workout-tracker/translations"
-	appviews "github.com/jovandeginste/workout-tracker/views"
+	appviews "github.com/jovandeginste/workout-tracker/internal/views"
+	appassets "github.com/jovandeginste/workout-tracker/internal/views/assets"
+	apptranslations "github.com/jovandeginste/workout-tracker/internal/views/translations"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
